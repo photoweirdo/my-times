@@ -1,0 +1,16 @@
+h3,  #header p span {font-family: Verdana;
+    font-size: 14px;
+    font-weight: bold;}
+  h3 {color:aquamarine;}
+#header {display:flex;
+         justify-content:space-between;}
+        #logo{display:flex;justify-content:space-between;;
+       }
+#my_times {display:flex;
+           align-items:center;}
+#navigation a {color:black;
+
+               margin:0 10px;
+               }
+#navigation {margin:0 20px;}
+img {margin-right:10px;}
