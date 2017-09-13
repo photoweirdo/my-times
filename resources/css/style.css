@@ -14,3 +14,75 @@ h3,  #header p span {font-family: Verdana;
                }
 #navigation {margin:0 20px;}
 img {margin-right:10px;}
+
+
+
+
+
+.column.large { width: 630px;display:flex;
+}
+.column.medium { width: 300px;display:flex;
+}
+.column.small { width: 240px;display:flex;flex-direction:column;
+}
+#content_box {display:flex;
+              justify-content:space-between;
+            }
+.column {display:flex;flex-direction: column;justify-content:flex-start;
+
+         }
+#story-main {display:flex;
+              background:url("../images/img-story-main.png") }
+#cat_in_control {display:flex;
+                background:url("../images/img-story-1.png") ;}
+#camera{ display:flex;
+                background:url("../images/img-story-3.png") ; }
+#earth_spins {display:flex;
+                    background:url("../images/img-story-2.png") }
+.image {font-family: Georgia;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;height:300px;
+         display:flex; align-items:center;}
+        .image p {text-align:center;}
+.article {font-family: Georgia;
+         font-size: 17px;
+         color: black;
+        }
+.big {font-size:40px;}
+#last_four_wrapper {display:flex;}
+.two {display:flex;
+      flex-direction:column;
+    }
+#bites span {background-color: WhiteSmoke;
+             font-family: Verdana;
+             font-size: 12px;
+             color: DimGray;
+             padding:10px 15px;
+             display:block;
+             border-bottom:1px solid black;}
+    #news_bites {font-size: 16px;
+                 font-weight: bold;text-align: center;
+                    font-variant: small-caps;}
+                    #footer {display:flex;
+                            flex-direction:column;
+                             justify-content:center;
+                             align-items:center;
+                             background-color: MediumAquamarine;
+                             margin: auto;
+                             font-family: Verdana;
+                             font-size: 12px;
+                           }
+                           #footer_wrapper {display:flex;
+                                            align-items:center; }
+                           #footer_header {font-family: Georgia;
+                                             font-size: 16px;
+                                             font-weight: bold;
+                                             color: white;
+                                             border-right:2px solid white;
+                                             padding:0 15px;}
+                             #footer li {display:inline-block;
+                                         text-decoration:none;
+                                         margin:0 10px;}
+
+                            #footer_wrapper li  a {color:black;}
